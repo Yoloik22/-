@@ -1,0 +1,26 @@
+<view class="information">
+  <view class="infList">
+    <view class="infitem searchInput">
+      <image mode="heightFix" class="front" src="/images/information/dizhi.png"></image>
+      <navigator class="add" url="../choice/choice" hover-class="none">
+        <input type="text" value="{{information.address?' '+information.address: ' 点击搜索地址'}}" placeholder-class="placeholder"/>
+      </navigator>
+    </view>
+    <view class="infitem searchInput">
+      <image mode="heightFix" class="front" src="/images/information/danyuan.png"></image>
+      <input type="text" placeholder="填写单元、楼层、门牌号等（选填）" placeholder-class="placeholder" />
+    </view>
+    <view class="infitem searchInput">
+      <image mode="heightFix" class="front" src="/images/information/xingming.png"></image>
+      <input type="text" placeholder="联系人姓名" placeholder-class="placeholder" />
+      <image mode="heightFix" class="last" src="/images/information/tongxulu.png"></image>
+    </view>
+    <view class="infitem searchInput">
+      <image mode="heightFix" class="front" src="/images/information//shoujihao.png"></image>
+      <input type="text" placeholder="联系人手机号" placeholder-class="placeholder" />
+      <text class="cancel">取消</text>
+    </view>
+  </view>
+  <button class="btn" type="primary" size="default" bindtap="backIndex">确认</button>
+<image class="pic" src="/images/index/jie1.png"></image>
+</view>

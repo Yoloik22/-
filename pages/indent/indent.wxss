@@ -1,0 +1,10 @@
+.box {
+  height: 400rpx;
+  width: 400rpx;
+  margin-left: 180rpx;
+  margin-top: 200rpx;
+}
+.pic {
+  height: 100%;
+  width: 100%;
+}

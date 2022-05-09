@@ -1,0 +1,9 @@
+<view class="searchContainer">
+  <view class="header">
+    <view class="searchInput">
+      <image mode="heightFix" class="sousuo" src="/images/search/sousuo.png"/>
+      <input type="text" placeholder="你想要的全都有" placeholder-class="placeholder" />
+    </view>
+    <text class="cancel">取消</text>
+  </view>
+</view>

@@ -1,0 +1,28 @@
+<view>
+  <map id="myMap" class="myMap" latitude="{{latitude}}" longitude="{{longitude}}" show-location></map>
+</view>
+<view class="cardList">
+  <view class="box">
+    <image class="pic" src="/images/address/quan1.png"/>
+    <navigator class="txt" url="/pages/information/information" hover-class="none">
+        <view class="text1">从哪里发货？</view>
+        <view class="text2">点击填写发货信息</view>
+    </navigator>
+    <image class="pic" src="/images/address/jian.png"/>
+  </view>
+
+  <image class="divide" src="/images/address/xian.png"/>
+  
+  <view class="box num1">
+    <image class="pic" src="/images/address/quan2.png"/>
+    <navigator class="txt" url="/pages/information/information" hover-class="none" bindtap="replaceValue">
+      <view class="text1">要送到哪里？</view>
+      <view class="text2">点击填写收货信息</view>
+    </navigator>
+    <image class="pic" src="/images/address/jian.png"/>
+  </view>  
+</view>
+
+<navigator class="navbtn" url="/pages/rider/rider" hover-class="none">
+  <button class="btn" type="primary" size="default">去下单</button>
+</navigator>

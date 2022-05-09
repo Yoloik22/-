@@ -1,0 +1,118 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator class="search" url="/pages/search/search" open-type="navigate" hover-class="none">搜索商品</navigator>
+
+    <view class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <image mode="heightFix" src="/images/index/kefu.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="banner">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular autoplay interval="3000">
+    <swiper-item><image src="/images/index/banner1.jpg"></image></swiper-item>
+    <swiper-item><image src="/images/index/banner2.jpg"></image></swiper-item>
+    <swiper-item><image src="/images/index/banner3.jpg"></image></swiper-item>
+  </swiper>
+</view>
+
+<view class="distribution">
+  <view class="container">
+    <view class="pubTitle">
+      <view class="txt">校园帮取</view>
+      <navigator class="more" url="/pages/address/address" open-type="navigate" hover-class="none">更多 ></navigator>
+    </view>
+
+    <view class="wkMain">
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/waimai.png"/>
+        <view class="txt">取外卖</view>
+      </navigator>
+
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/baoguo.png"/>
+        <view class="txt">取包裹</view>
+      </navigator>
+
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/shuitong.png"/>
+        <view class="txt">帮换水</view>
+      </navigator>
+
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/reshui.png"/>
+        <view class="txt">帮打热水</view>
+      </navigator>
+
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/beiru.png"/>
+        <view class="txt">取床褥</view>
+      </navigator>
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/qicai.png"/>
+        <view class="txt">取器材</view>
+      </navigator>
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/give.png"/>
+        <view class="txt">取给他人</view>
+      </navigator>
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/all.png"/>
+        <view class="txt">全部分类</view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<view class="purchase">
+  <view class="container">
+    <view class="pubTitle">
+      <view class="txt">校园帮买</view>
+      <navigator class="more" url="/pages/address/address" open-type="navigate" hover-class="none">更多 ></navigator>
+    </view>
+
+    <view class="wkMain">
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/shenghuo.png"/>
+        <view class="txt">生活用品</view>
+      </navigator>
+
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/lingshi.png"/>
+        <view class="txt">零食</view>
+      </navigator>
+
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/shitang.png"/>
+        <view class="txt">食堂</view>
+      </navigator>
+
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/yaopin.png"/>
+        <view class="txt">药品</view>
+      </navigator>
+
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/dianzi.png"/>
+        <view class="txt">电子配件</view>
+      </navigator>
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/lingjian.png"/>
+        <view class="txt">小零件</view>
+      </navigator>
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/buy.png"/>
+        <view class="txt">买给他人</view>
+      </navigator>
+      <navigator class="box" url="/pages/address/address" open-type="navigate" hover-class="none">
+        <image class="pic" src="/images/index/all.png"/>
+        <view class="txt">全部分类</view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<view class="footer">
+  <image class="pic" src="/images/index/jie1.png"></image>
+</view>

@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/indent/indent",
+    "pages/mine/mine",
+    "pages/address/address",
+    "pages/information/information",
+    "pages/choice/choice",
+    "pages/rider/rider",
+    "pages/news/news",
+    "pages/search/search",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#80ca35",
+    "navigationBarTitleText": "校园链送"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#80ca35",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/tabBer1.png",
+        "selectedIconPath": "images/tabBar/logo2.png"
+      },
+      {
+        "pagePath": "pages/indent/indent",
+        "text": "我的订单",
+        "iconPath": "images/tabBar/tabBer2.png",
+        "selectedIconPath": "images/tabBar/tabBer2-1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "images/tabBar/tabBer3.png",
+        "selectedIconPath": "images/tabBar/tabBer3-1.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于为您匹配最佳骑手" 
+    }
+  },
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.19",
+      "provider": "wx50b5593e81dd937a"
+    },
+    "chooseLocation": {
+      "version": "1.0.9",
+      "provider": "wx76a9a06e5b4e693e"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

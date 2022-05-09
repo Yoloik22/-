@@ -1,0 +1,15 @@
+.box{
+  height: 460rpx;
+  width: 420rpx;
+  margin-top: 250rpx;
+  margin-left: 160rpx;
+}
+.pic{
+  height: 100%;
+  width: 100%;
+}
+
+.title{
+  margin-top: 20rpx;
+  margin-left: 220rpx;
+}

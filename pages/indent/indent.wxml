@@ -1,0 +1,4 @@
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange" ></Tabs>
+<view class="box">
+  <image class="pic" src="../../images/indent/quesheng.png"></image>
+</view>
